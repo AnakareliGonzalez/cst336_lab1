@@ -1,35 +1,82 @@
-body{
-    background-color: white;
-    color: gray;
+body {
+    background-color: black;
+    color: white;
 }
 
-header, main, nav, footer{
+#indexm {
+    text-align: center
+}
+
+header, nav, footer {
     text-align: center;
 }
 
-nav a{
+nav a { /*links within "nav" container*/
     padding: 15px;
     padding-bottom: 4px;
-    font-size: 1.8em;
-    text-decoration: none;
+    font-size: 2em;
+    text-decoration: none; /*removes underline*/
     color: white;
 }
-nav a:hover{
-    border-bottom: 2px orange solid;
-    font-size: 2em;
-    transition: .9s;
-    
+
+nav a:hover { /*pseudo class*/
+    border-bottom: 2px blue;
+    font-size: 2.5em;
+    transition: .9s; /*transition effect*/
 }
 
-#me, #welcomeText {
+#me {
     float: left;
-    width: 40%;
+    align-content: center;
 }
 
-#me img{
-    width: 100%;
+#welcomeText {
+    text-align: left;
 }
 
-footer{
-    clear:left;
+#logo {
+    float: center;
+}
+
+footer {
+    font-size: .7em;
+    color: white;
+    clear: left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+    text-align-last: center;
+}
+
+td strong {
+    color: #098dfb;
+}
+
+#table-header {
+    background-color: black;
+}
+
+.table-row {
+    background-color: black;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby {
+    color: #098dfb;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
 }
